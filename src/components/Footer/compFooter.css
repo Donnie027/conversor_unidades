@@ -1,0 +1,9 @@
+
+footer {
+    width: 100vw;
+    height: 50px;
+    margin-top: auto;
+    background: var(--color-decenario-base);
+    display: grid;
+    place-items: center;
+}

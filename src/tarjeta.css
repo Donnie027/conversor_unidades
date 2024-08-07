@@ -1,0 +1,108 @@
+:root {
+
+    --colorOscuro-uno: #404040;
+    --colorOscuro-dos: #515151;
+    --colorOscuro-tres: #616161;
+    --colorOscuro-cuatro: #6F6F6F;
+    --colorOscuro-cinco: #3b3a40;
+    --colorOscuro-seis: #838181;
+    --colorTitulo-uno: #FF8F00;
+    --colorTitulo-uno-hover: #FFB74D;
+    --colorTitulo-dos: #87CEFA;
+    --colorTitulo-dos-hover: #B0E0E6;
+    --colorTexto-uno: #FFFFFF;
+    --colorTexto-dos: #D3D3D3;
+    --colorTexto-tres: #F5F5DC;
+    --colorTexto-cuatro: #ADD8E6;
+    --colorTexto-cinco: #FFFFE0;
+
+  
+}
+.tarjeta {
+    background: #2D2D2D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #E0E0E0;
+    max-width: 90vw;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta__caja-conversiones {
+    background-color: var(--colorOscuro-tres);
+    border-radius: 8px;
+    border: 1px solid var(--colorOscuro-cuatro);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: calc(10% + 250px);
+    margin: 16px auto;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    padding: 20px;
+ 
+}
+
+.titulo-conversor {
+    background: var(--colorOscuro-cuatro);
+    /* color: var(--colorTitulo-uno-hover); */
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.caja-resultado {
+    background: var(--colorOscuro-seis);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    gap: 6px;
+    font-weight: 700;
+    color: var(--colorTexto-cinco);
+    position: relative;
+    cursor: default;
+}
+
+.label-conversor {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-copy {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px 4px;
+    margin: 5px;
+    background: rgba(46, 46, 46, 0.7);
+    /* background: transparent; */
+    border: none;
+    color: #b4b4b4;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; 
+
+    text-shadow: 
+    .3px .3px 0 #b4b4b4,
+    -.3px -.3px 0 #b4b4b4,
+    .3px -.3px 0 #b4b4b4,
+    -.3px .3px 0 #b4b4b4; 
+}
+
+.btn-copy:hover {
+    background-color: #2a2828; 
+}
+
+  
