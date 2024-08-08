@@ -3,10 +3,10 @@ import { SelectComponente } from '../../Selects/SelectComponente';
 import { BotonCopiarComponente } from '../../BotonCopiar/BotonCopiarComponente';
 import { useConversion } from '../../../Hooks/useConversion'
 
-import { opcionesLongitud } from "./opcionesLongitud";
-import { conversionesLongitud } from "./conversionesLongitud";
+import { conversionesArea } from "./conversionesArea";
+import { opcionesArea } from "./opcionesArea";
 
-export const LongitudComponente = () => {
+export const AreaComponente = () => {
 
   const {
     unidadDe,
@@ -16,26 +16,26 @@ export const LongitudComponente = () => {
     manejoCambioInput,
     valor,
     convertirValor
-  } = useConversion(opcionesLongitud, conversionesLongitud);
+  } = useConversion(opcionesArea, conversionesArea);
 
   const resultadoConversion = convertirValor();
 
   return (
     <>
-      <h2 className="titulo-conversor">Longitud 📏</h2>
+      <h2 className="titulo-conversor">Área 📐</h2>
 
       <label className="label-conversor">Convertir</label>
       <InputComponente onValueChange={manejoCambioInput} />
 
       <SelectComponente 
-        opciones={opcionesLongitud}
+        opciones={opcionesArea}
         seleccionOpcion={unidadDe}
         onChangeOption={cambioUnidadDe} 
       />
 
       <label className="label-conversor"> A </label>
       <SelectComponente
-        opciones={opcionesLongitud}
+        opciones={opcionesArea}
         seleccionOpcion={unidadA}
         onChangeOption={cambioUnidadA}
       />

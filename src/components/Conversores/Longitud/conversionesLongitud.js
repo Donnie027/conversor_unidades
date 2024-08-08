@@ -1,4 +1,4 @@
-export const conversiones = {
+export const conversionesLongitud = {
   cm: {
     m: 0.01,
     km: 0.00001,

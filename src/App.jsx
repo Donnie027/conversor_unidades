@@ -2,7 +2,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import './App.css'
 import './tarjeta.css';
-import { CompFooter, LongitudComponente } from './components';
+import { AreaComponente, CompFooter, LongitudComponente, TiempoComponente } from './components';
 
 
 function App() {
@@ -19,7 +19,11 @@ function App() {
         </div>
 
         <div className="tarjeta__caja-conversiones">
-  
+          <AreaComponente />
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <TiempoComponente/>
         </div>
 
 
