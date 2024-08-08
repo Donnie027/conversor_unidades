@@ -5,13 +5,12 @@ export const InputComponente = ({ onValueChange }) => {
 
   const [inputValue, setInputValue] = useState('');
 
-  const manejoCambio = (eve) => {
-    const nuevoValor = eve.target.value;
+  const manejoCambio = ({ target }) => {
+    const nuevoValor = target.value;
     setInputValue(nuevoValor);
     if (onValueChange) {
       onValueChange(nuevoValor);
     }
-    // console.log(nuevoValor);
   }
 
   return (

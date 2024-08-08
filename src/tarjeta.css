@@ -49,13 +49,16 @@
 
 .titulo-conversor {
     background: var(--colorOscuro-cuatro);
-    /* color: var(--colorTitulo-uno-hover); */
     padding: 10px;
     border-radius: 8px;
     width: 100%;
-
+    cursor: default;
 }
 
+/* .textTitulo {
+    cursor: pointer;
+} */
+ 
 .caja-resultado {
     background: var(--colorOscuro-seis);
     border-radius: 5px;

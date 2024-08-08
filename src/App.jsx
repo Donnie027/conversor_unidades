@@ -19,7 +19,7 @@ function App() {
         </div>
 
         <div className="tarjeta__caja-conversiones">
-          <LongitudComponente/>
+  
         </div>
 
 
