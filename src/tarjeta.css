@@ -30,6 +30,8 @@
     margin: 3vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .tarjeta__caja-conversiones {
@@ -40,8 +42,10 @@
     width: calc(10% + 250px);
     margin: 16px auto;
     color: #fff;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 15px;
     padding: 20px;
  
