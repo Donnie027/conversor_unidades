@@ -2,7 +2,20 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import './App.css'
 import './tarjeta.css';
-import { AreaComponente, CompFooter, LongitudComponente, TiempoComponente } from './components';
+import {
+   AreaComponente, 
+   CompFooter, 
+   EnergiaComponente, 
+   EqTemperaturaComponente, 
+   FuerzaComponente, 
+   LongitudComponente, 
+   MasaComponente, 
+   PotenciaComponente, 
+   PresionComponente, 
+   TiempoComponente, 
+   ViscocidadComponente, 
+   VolumenComponente 
+  } from './components';
 
 
 function App() {
@@ -24,6 +37,38 @@ function App() {
 
         <div className="tarjeta__caja-conversiones">
           <TiempoComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <VolumenComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <MasaComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <FuerzaComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <EnergiaComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <PresionComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <PotenciaComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <ViscocidadComponente/>
+        </div>
+
+        <div className="tarjeta__caja-conversiones">
+          <EqTemperaturaComponente/>
         </div>
 
 
