@@ -1,0 +1,25 @@
+
+header {
+    width: 100%;
+    background: var(--color-sextenario-base);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaIcono {
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+}
+.IconHeader {
+    background: url(../../svg/Header01.svg)
+    no-repeat center/contain;
+    filter: drop-shadow(2px 2px 5px black);
+}
+.IconHeaderDos {
+    background: url(../../img/Header02.png)
+    no-repeat center/contain;
+    filter: drop-shadow(2px 2px 5px black);
+}

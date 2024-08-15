@@ -1,13 +1,15 @@
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css'
 import './tarjeta.css';
 import {
    AreaComponente, 
    CompFooter, 
+   ConoceMasComponente, 
    EnergiaComponente, 
    EqTemperaturaComponente, 
    FuerzaComponente, 
+   HeaderComponente, 
    LongitudComponente, 
    MasaComponente, 
    PotenciaComponente, 
@@ -22,8 +24,8 @@ function App() {
 
   return (
     <>
-      <h1>Conversor de Unidades</h1>
-      <h3>Proyecto de <span>Física</span></h3>
+
+    <HeaderComponente/>
 
       <div className="tarjeta">
 
@@ -71,8 +73,10 @@ function App() {
           <EqTemperaturaComponente/>
         </div>
 
+      <ConoceMasComponente/>
 
       </div>
+
 
       <CompFooter />
 

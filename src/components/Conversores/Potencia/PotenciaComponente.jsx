@@ -22,7 +22,7 @@ export const PotenciaComponente = () => {
 
   return (
     <>
-      <h2 className="titulo-conversor">Potencia 🚗</h2>
+      <h2 className="titulo-conversor">Potencia 🚀</h2>
 
       <label className="label-conversor">Convertir</label>
       <InputComponente onValueChange={manejoCambioInput} />

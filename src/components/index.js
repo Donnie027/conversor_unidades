@@ -1,5 +1,6 @@
 
 export * from './Footer/CompFooter'
+export * from './Header/HeaderComponente'
 export * from './Conversores/Longitud/LongitudComponente'
 export * from './Conversores/Area/AreaComponente'
 export * from './Conversores/Tiempo/TiempoComponente'
@@ -11,3 +12,4 @@ export * from './Conversores/Presion/PresionComponente'
 export * from './Conversores/Potencia/PotenciaComponente'
 export * from './Conversores/Viscocidad/ViscocidadComponente'
 export * from './Conversores/EquivalenciaTemperatura/EqTemperaturaComponente'
+export * from './ConoceMas/ConoceMasComponente'

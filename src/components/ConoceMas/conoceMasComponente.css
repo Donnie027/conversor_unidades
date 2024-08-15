@@ -1,0 +1,169 @@
+
+.cajaContenedorLetrero {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px 15px 10px;
+}
+.letreroConoceMas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 20px;
+    background: var(--colorOscuro-siete);
+    border-radius: 5px;
+    position: relative;
+    width: 80%;
+}
+.imgParaLetrero {
+    background: url(../../svg//conMas01.svg)
+    no-repeat center/contain;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+}
+.imgLetreroResponsivo {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: url(../../svg/conMas02.svg)
+    no-repeat center/contain;
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 20px);
+    transform: translate(-45%, -50%);
+}
+.cajaConoceMas {
+    background:  var(--color-sextenario-oscuro);
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.cajaConoceMas span::selection {
+    color: none;
+}
+
+.iconoConoceMas {
+    margin-left: 10px;
+}
+
+.cajaConoceMas:hover {
+    transform: scale(1.05);
+    background-color:  var(--color-sextenario-base);
+}
+.cajaConoceMas:active {
+    transform: scale(1);
+    background-color:  var(--color-sextenario-oscuro);
+}
+
+
+
+.contenedorTecnologias {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label {
+    font-weight: 600;
+    font-size: 18px;
+}
+.iconoTec {
+    background: no-repeat center/contain;
+    width: 55px;
+    height: 55px;
+}
+
+.TecWebHTML {
+    background: url(../../icons/iconosTecUs/html.svg);
+}
+.TecWebCSS {
+    background: url(../../icons/iconosTecUs/css.svg);
+}
+.TecWebJS {
+    background: url(../../icons/iconosTecUs/js.svg);
+}
+
+.TecDesREACT {
+    background: url(../../icons/iconosTecUs/react.svg);
+}
+.TecDesYARN {
+    background: url(../../icons/iconosTecUs/yarn.svg);
+}
+.TecDesVITE {
+    background: url(../../icons/iconosTecUs/Vite.svg);
+}
+
+
+
+.cajaVisitRepo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.cajaVisitRepo h2 {
+    margin-top: 25px;
+}
+
+.cajaVisitRepo {
+    width: 100%;
+}
+.direcRepo {
+    background-color: #2d2d2d;
+    padding: 11px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.imgQR {
+    width: 14vw;
+    height: 14vw;
+    background: url(../../img/enlaceGitHub.png)
+    no-repeat center/contain;
+    border-radius: 5px;
+}
+
+
+
+
+@media (width<1060px) {
+    .cajaContenedorLetrero {
+        padding: 20px 10px 15px 10px;
+    }
+    .imgParaLetrero {
+        display: none;
+    }
+    .imgLetreroResponsivo {
+        display: block;
+    }
+    .letreroConoceMas {
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media (width<700px) {
+    .cajaContenedorLetrero {
+        width: 80%;
+    }
+}
