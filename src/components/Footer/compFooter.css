@@ -37,14 +37,14 @@ footer {
 .imagenLogo {
     width: 7vw;
     height: 7vw;
-    background: url(../../assets/svg/footer01.svg) no-repeat center/contain;
+    background: url(../../svg/footer01.svg) no-repeat center/contain;
     filter: drop-shadow(0.2vw 0.2vw 0.4vw black);
 }
 
 .imagenRelleno {
     width: 10vw;
     height: 10vw; 
-    background: url(../../assets/img/SelloDeAprobacion.png) no-repeat center/contain;
+    background: url(../../img/SelloDeAprobacion.png) no-repeat center/contain;
     filter: contrast(95%);
     opacity: 0.95;
 }
@@ -52,7 +52,7 @@ footer {
 .imagenPhampi {
     width: 5vw; 
     height: 5vw;
-    background: url(../../assets/img/phampiBlanco.png) no-repeat center/contain;
+    background: url(../../img/phampiBlanco.png) no-repeat center/contain;
     filter: drop-shadow(0.1vw 0.1vw 0.8vw black);
 }
 .projectElephant {
