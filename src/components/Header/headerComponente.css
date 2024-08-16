@@ -14,12 +14,12 @@ header {
     margin: 2px;
 }
 .IconHeader {
-    background: url(../../svg/Header01.svg)
+    background: url(../../assets/svg/Header01.svg)
     no-repeat center/contain;
     filter: drop-shadow(2px 2px 5px black);
 }
 .IconHeaderDos {
-    background: url(../../img/Header02.png)
+    background: url(../../assets/img/Header02.png)
     no-repeat center/contain;
     filter: drop-shadow(2px 2px 5px black);
 }

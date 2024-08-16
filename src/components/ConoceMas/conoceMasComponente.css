@@ -18,7 +18,7 @@
     width: 80%;
 }
 .imgParaLetrero {
-    background: url(../../svg//conMas01.svg)
+    background: url(../../assets/svg/conMas01.svg)
     no-repeat center/contain;
     width: 100%;
     height: 120px;
@@ -31,7 +31,7 @@
     display: none;
     width: 150px;
     height: 150px;
-    background: url(../../svg/conMas02.svg)
+    background: url(../../assets/svg/conMas02.svg)
     no-repeat center/contain;
     position: absolute;
     top: 50%;
@@ -94,23 +94,23 @@ label {
 }
 
 .TecWebHTML {
-    background: url(../../icons/iconosTecUs/html.svg);
+    background: url(../../assets/icons/html.svg);
 }
 .TecWebCSS {
-    background: url(../../icons/iconosTecUs/css.svg);
+    background: url(../../assets/icons/css.svg);
 }
 .TecWebJS {
-    background: url(../../icons/iconosTecUs/js.svg);
+    background: url(../../assets/icons/js.svg);
 }
 
 .TecDesREACT {
-    background: url(../../icons/iconosTecUs/react.svg);
+    background: url(../../assets/icons/react.svg);
 }
 .TecDesYARN {
-    background: url(../../icons/iconosTecUs/yarn.svg);
+    background: url(../../assets/icons/yarn.svg);
 }
 .TecDesVITE {
-    background: url(../../icons/iconosTecUs/Vite.svg);
+    background: url(../../assets/icons/Vite.svg);
 }
 
 
@@ -138,7 +138,7 @@ label {
 .imgQR {
     width: 14vw;
     height: 14vw;
-    background: url(../../img/enlaceGitHub.png)
+    background: url(../../assets/img/enlaceGitHub.png)
     no-repeat center/contain;
     border-radius: 5px;
 }

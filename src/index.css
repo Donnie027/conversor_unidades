@@ -3,42 +3,42 @@
 
 @font-face {
   font-family: 'MilkyVintage'; 
-  src: url('./fonts/MilkyVintage-Regular.ttf') format('truetype'); 
+  src: url('./assets/fonts/MilkyVintage-Regular.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal; 
 }
 
 @font-face {
   font-family: 'InkedGod'; 
-  src: url('./fonts/InkedGod.ttf') format('truetype'); 
+  src: url('./assets/fonts/InkedGod.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal; 
 }
 
 @font-face {
   font-family: 'RochesterTwee'; 
-  src: url('./fonts/RochesterTwee.ttf') format('truetype'); 
+  src: url('./assets/fonts/RochesterTwee.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal; 
 }
 
 @font-face {
   font-family: 'Penguin'; 
-  src: url('./fonts/Penguin.ttf') format('truetype'); 
+  src: url('./assets/fonts/Penguin.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal; 
 }
 
 @font-face {
   font-family: 'BethanyElingston'; 
-  src: url('./fonts/BethanyElingston.otf') format('opentype'); 
+  src: url('./assets/fonts/BethanyElingston.otf') format('opentype'); 
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Neoforte'; 
-  src: url('./fonts/Neoforte.otf') format('opentype'); 
+  src: url('./assets/fonts/Neoforte.otf') format('opentype'); 
   font-weight: normal;
   font-style: normal;
 }
